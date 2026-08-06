@@ -1,0 +1,11 @@
+pipeline{
+agent any
+stages{
+stage('Build and test successful!')
+}}
+stage('Generate artifact'){
+steps{
+echo "hello"}}}
+post{
+success{
+echo 'pipeline completed successful!'}}}
